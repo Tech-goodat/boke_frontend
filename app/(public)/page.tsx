@@ -86,7 +86,7 @@ const Home = () => {
             {work.icon}
           </div>
           <h1 className=' mt-2 font-bold'>{work.heading}</h1>
-          <p className='mt-2 text-center text-[12px]'>{work.description}</p>
+          <p className='mt-2 text-center   text-[12px]'>{work.description}</p>
         
       </div>
       ))}
