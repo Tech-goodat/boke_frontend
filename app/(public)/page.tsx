@@ -6,6 +6,8 @@ import { SiFusionauth } from "react-icons/si";
 import { MdPayments } from "react-icons/md";
 import { GiOrganigram } from "react-icons/gi";
 import { CiWallet } from "react-icons/ci";
+import { FaArrowDownUpLock } from "react-icons/fa6";
+import { IoNotificationsCircleOutline } from "react-icons/io5";
 
 const working=[
   {heading:'1. Easy Login',description:'Create your account using your registered identity. This allows us to securely link your billing information in one place.', icon:<SiFusionauth size={30}/>},
@@ -15,8 +17,8 @@ const working=[
 
 const features=[
   {icon:<CiWallet size={30}/>, title:'Two step payment', description:'With a few steps, you get to initiate your payments.'},
-  {icon:<CiWallet size={20}/>, title:'Reminders', description:'Deadlines approaching? get reminded to take action.'},
-  {icon:<CiWallet size={20}/>, title:'Secure', description:'Secure your data with the most advanced security protocol.'}
+  {icon: <IoNotificationsCircleOutline  size={20}/>, title:'Reminders', description:'Deadlines approaching? get reminded to take action.'},
+  {icon:<FaArrowDownUpLock  size={20}/>, title:'Secure', description:'Secure your data with the most advanced security protocol.'}
 ]
 const Home = () => {
   return (
