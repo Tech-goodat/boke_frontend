@@ -18,6 +18,7 @@ const working=[
 const features=[
   {icon:<CiWallet size={30}/>, title:'Two step payment', description:'With a few steps, you get to initiate your payments.'},
   {icon: <IoNotificationsCircleOutline  size={20}/>, title:'Reminders', description:'Deadlines approaching? get reminded to take action.'},
+  {icon:<FaArrowDownUpLock  size={20}/>, title:'Secure', description:'Secure your data with the most advanced security protocol.'},
   {icon:<FaArrowDownUpLock  size={20}/>, title:'Secure', description:'Secure your data with the most advanced security protocol.'}
 ]
 const Home = () => {
