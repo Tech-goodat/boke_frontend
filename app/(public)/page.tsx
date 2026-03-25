@@ -82,7 +82,7 @@ const Home = () => {
      <section className='flex mt-5 w-full items-center justify-center gap-20'>
       {working.map((work)=>(
         <div key={work.heading} className='w-60 flex flex-col items-center justify-center'>
-          <div className='bg-linear-to-r items-center justify-center flex w-10 h-10 from-[#1affb6] to-[#50da00] rounded-md p-3'>
+          <div className='bg-linear-to-r items-center justify-center flex w-10 h-10 from-[#04ff00] to-[#50da00] rounded-md p-3'>
             {work.icon}
           </div>
           <h1 className=' mt-2 font-bold'>{work.heading}</h1>
@@ -112,6 +112,34 @@ const Home = () => {
       ))}
       
     </section>
+    </section>
+    <section className='flex mt-10 flex-col md:flex-row w-full items-center justify-center gap-5'>
+      <div className='flex w-full  flex-col items-center'>
+        <h1 className='font-bold flex w-full text-4xl'>Why Tsavou<span className='text-[#00d60e]'>Rite</span> ?</h1>
+        <p className='text-[12px] flex-w-full'>Because managing bills shouldn’t be stressful. With smart identity-based organization, secure payments, and seamless M-Pesa integration, PayFlow gives you full control, all in one place.</p>
+        <div className='flex gap-2 w-full items-center mt-3'>
+         <Image
+            src='/image.jpg'
+            alt='Logo'
+            width={10}
+            height={10}
+            className='rounded-full w-10 h-10 border p-0.5 border-[#00d60e] object-cover'
+             />
+             <section className='flex flex-col items-center ml-3'>
+              <h1 className='font-bold flex w-full text-[13px]'>Felix Kiprotich</h1>
+              <p className='flex w-full text-[10px]'>Founder & Developer</p>
+             </section>
+          </div>
+      </div>
+       <div className='flex h-40 items-center justify-center'>
+          <Image
+            src='/image.jpg'
+            alt='Logo'
+            width={700}
+            height={70}
+            className='rounded-xl w-600 md:w-300 h-full object-cover'
+             />
+        </div>
     </section>
     </div>
   )
