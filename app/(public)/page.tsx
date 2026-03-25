@@ -119,7 +119,7 @@ const Home = () => {
         <p className='text-[12px] flex-w-full'>Because managing bills shouldn’t be stressful. With smart identity-based organization, secure payments, and seamless M-Pesa integration, PayFlow gives you full control, all in one place.</p>
         <div className='flex gap-2 w-full items-center mt-3'>
          <Image
-            src='/image.jpg'
+            src='/me.jpg'
             alt='Logo'
             width={10}
             height={10}
