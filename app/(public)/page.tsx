@@ -26,9 +26,9 @@ const Home = () => {
       <section className='flex flex-col lg:grid lg:grid-cols-2 items-center gap-4'>
         <div className='flex flex-col w-full items-center'>
           <h1 className='text-2xl lg:text-3xl  font-bold'>
-            All Your Bills in One Place. Zero Stress. Secure, Smart, and Simple Billing for Everyone.
+            All Your Bills in One Place. Zero Stress. Secure, Smart, and Simple Billing.
           </h1>
-          <p className='flex mt-3 text-[12px]'>Say goodbye to scattered payments. PayFlow organizes all your bills in one secure dashboard, letting you track and pay everything effortlessly via M-Pesa or card.</p>
+          <p className='flex mt-3 text-[12px]'>Say goodbye to scattered payments. Tsavourite organizes all your bills in one secure dashboard, letting you track and pay everything effortlessly via M-Pesa or card.</p>
            <section className='flex gap-5 mt-6 w-full items-center'>
                 <Link href='/login' className='w-40 rounded-sm items-center justify-center flex cursor-pointer p-2 text-[13px] bg-linear-to-r from-[#009f0b] to-[#50da00]'>Get Started</Link>
                 <Link href='/demo' className='w-40 rounded-sm cursor-pointer p-2 text-[13px]  border border-amber-100 items-center flex gap-3 justify-center bg-gray-900'><FaRegPlayCircle size={17}/>Request Demo</Link>
