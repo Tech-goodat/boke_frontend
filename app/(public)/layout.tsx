@@ -28,7 +28,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} px-7 lg:px-30 py-5 antialiased`}
       >
-        <GlobalNavbar />
+        
+       <div className="fixed top-0 left-0 w-full z-50 bg-inherit px-7  lg:px-30 py-5">
+  <GlobalNavbar />
+</div>
         {children}
       </body>
     </html>

@@ -52,7 +52,7 @@ const Home = () => {
             alt='Logo'
             width={400}
             height={500}
-            className=''
+            className='mt-10'
              />
         </div>
       </section>
