@@ -55,7 +55,7 @@ const SignUp = () => {
         />
 
         <form className='flex gap-5 lg:w-180 flex-col w-full items-center justify-center lg:ml-20 mt-10'>
-          <h1 className='flex gap-2 w-full text-3xl font-bold'>Create a <Link href='/'>Tsavou<span className='text-[#00d60e]'>Rite</span></Link> Account</h1>
+          <h1 className='flex gap-2 w-full text-2xl lg:text-3xl font-bold'>Create a <Link href='/'>Tsavou<span className='text-[#00d60e]'>Rite</span></Link> Account</h1>
           <p className='flex w-full items-center text-[12px] gap-2'>Already have and account ? <Link href='/login' className='text-[#00d60e] underline'>Sign in</Link></p>
           <section className='flex w-full items-center gap-4'>
             <input type='text' name='first_name' value={loginData.first_name} onChange={handleInputChange} placeholder='First name' className='outline-none focus:ring-1 focus:ring-[#00d60e] w-full text-[12px] bg-olive-900 p-3 rounded-sm'/>
